@@ -5,5 +5,7 @@
     <div>
         <a href="/about" class="{{ $activeLink == 'about' ? 'text-2xl text-blue-600' : '' }} text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2">About</a>
         <a href="/contact" class="{{ $activeLink == 'contact' ? 'text-2xl text-blue-600' : '' }} text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2">Contact</a>
+        <a href="/gallery" class="{{ $activeLink == 'gallery' ? 'text-2xl text-blue-600' : '' }} text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2">Gallery</a>
+
     </div>
 </nav>

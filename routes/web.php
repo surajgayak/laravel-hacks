@@ -23,3 +23,6 @@ Route::get('/contact', function () {
 Route::get('/about',function(){
     return view('about');
 });
+Route::get('/gallery',function(){
+    return view('gallery');
+});
