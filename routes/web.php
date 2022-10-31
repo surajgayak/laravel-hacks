@@ -26,3 +26,6 @@ Route::get('/about',function(){
 Route::get('/gallery',function(){
     return view('gallery');
 });
+Route::get('/explore',function(){
+    return view('explore');
+});
